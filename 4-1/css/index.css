@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #636363;
+    line-height: 150%;
 }
 
 .header {
@@ -10,8 +11,12 @@ body {
     background-size: cover;
 }
 
-.logo {
+.container {
+    max-width: 1300px;
     margin: 0px auto;
+}
+
+.logo {
     text-align: center;
     font-size: 3.5em;
     font-weight: bold;
@@ -56,10 +61,7 @@ body {
     margin: 0px auto;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 1.3em;
-    color: #000000;
     padding: 15px;
-    |--text-align: justify;
 }
 
 .btn {
@@ -86,48 +88,47 @@ h1 {
     padding-bottom: 40px;
     margin-left: 80px;
     margin-right: 80px;
+    line-height: 150%;
 }
 
 .section2 {
-    display: inline-block;
+    text-align: center;
     background-color: #f4f4f4;
-    width: 100%;
-    |--text-align: center;
+    padding: 80px 0px 80px 0px;
 }
 
 h2 {
     text-align: left;
-    font-size: 1.8em;
+    font-size: 1.9em;
     font-weight: bold;
     color: #000000;
-    padding-top: 100px;
-    padding-bottom: 10px;
-    padding-left: 30px;
 }
 
 .sec2-1 {
+    text-align: left;
     display: inline-block;
-    width: 25%;
-    height: 100px;
     color: #000000;
+    padding-right: 20px;
+    width: 25%;
 }
 
-.sec2-1-1 {
-    font-size: 1em;
-    height: 100px;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px;
+.sec2-1 img {
+    margin-right: 10px;
+}
+
+.discription {
+    font-size: 0.8em;
+    color: #666
 }
 
 .sec2-2 {
+    text-align: left;
     display: inline-block;
     width: 40%;
-    color: #000000;
 }
 
-.sec2-2-2 {
-    font-size: 1.5em;
-    color: #000000;
+.sec2-2 img {
+    width: 500px;
 }
 
 .footer {
@@ -145,4 +146,10 @@ h2 {
     text-decoration: none;
     color: #646464;
     font-weight: bold;
+}
+
+hr {
+    border: 0px;
+    border-top: 1px solid #DCDCDC;
+    margin: 20px 0px 20px 0px;
 }
